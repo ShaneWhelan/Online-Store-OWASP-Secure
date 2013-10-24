@@ -1,0 +1,49 @@
+/* 
+    Document   : owaspStyle
+    Created on : Mar 11, 2013, 9:18:14 PM
+    Author     : Shane
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    background-color:#444444; /* 555555  333333 */
+    color:#f0f0f0;
+    font-family: Arial;
+}
+
+a:link {color:#60a0e0;}    /* unvisited link */
+a:visited {color:#6080e0;} /* visited link */
+a:hover {color:#e0f0f0;}   /* mouse over link */
+
+h1 {color:#33ccff}
+h2 {color:#33ccff}
+h3 {color:#33ccff}
+
+p.note{color:#ff3333}
+
+footer.copy {
+    font-size: 14px;
+    font-family: Arial;
+    position:absolute;
+    left:45%;
+}
+
+img.owaspLogo{
+    width:58px;
+    height: auto;
+}
+
+html, body {
+    height: 100%;
+}
+.main {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+
+.footer, .wrap {
+    height: 4em;
+}
